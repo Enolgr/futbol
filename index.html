@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleindex.css">
+    <title>Equipo Fútbol</title>
+</head>
+<body>
+    <h1>PRO CAMPUS SOCCER</h1>
+<div class="container">
+    <a href="./jugadores.html"><button class="plantilla"  >Ver Plantilla</button></a>
+    <form action="./php/ingresarjugador.php" method="post">
+        <div class="mb-3">
+            <label for="nombre">Nombre</label>
+            <input required type="text" name="nombre" id="nombre">
+        </div>
+        <div class="mb-3">
+            <label for="dorsal">Dorsal</label>
+            <input required type="text" name="dorsal" id="dorsal">
+        </div>
+        <div class="mb-3">
+            <label for="posicion">Posición</label>
+            <select required id="posicion">
+                <option value="1">Portero</option>
+                <option value="2">Defensa</option>
+                <option value="3">Mediocampista</option>
+                <option value="4">Delantero</option>
+                <option value="5">Entrenador</option>
+            </select>
+        </div>
+        
+        <div>
+        <button type="submit">Ingresar Jugador</button>
+    </div>
+    </form>
+
+</div>
+
+</body>
+</html>

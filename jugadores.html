@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylejugadores.css">
+    <title>Jugadores</title>
+</head>
+<body>
+    <h1>PRO CAMPUS SOCCER</h1>
+    <div class="boton">
+        <a href="./index.html"><button class="claro">
+            Insertar jugador
+        </button></a>
+        </div>
+
+    <div id="modojuego">
+        <label for="tacticas">Seleccione una formación</label>
+        <select name="tacticas" id="tacticas"></select>
+    </div>
+    <section id="seleccionjugadores">
+    
+        <div id="defensas" class="tipo-futbol">
+            <h2>Defensas</h2>
+            <div id="jugadores-defensas" class="jugadores"></div>
+            <div class="disponibilidad">
+                <div class="boton-disponibilidad" id="dispo-defensas">
+                    <div id="marcado-defensas" class="marcados"></div> / <div class="contador" id="total-defensas"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="centrocampistas" class="tipo-futbol">
+            <h2>Centrocampistas</h2>
+            <div id="jugadores-centrocampistas" class="jugadores"></div>
+            <div class="disponibilidad">
+                <div class="boton-disponibilidad" id="dispo-centro">
+                    <div id="marcado-centro" class="marcados"></div> / <div class="contador" id="total-centro"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="delanteros" class="tipo-futbol">
+            <h2>Delanteros</h2>
+            <div id="jugadores-delanteros" class="jugadores"></div>
+            <div class="disponibilidad">
+                <div class="boton-disponibilidad" id="dispo-delanteros">
+                    <div id="marcado-delanteros" class="marcados"></div> / <div class="contador" id="total-delanteros"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <button id="jugar" >¡A jugar!</button>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./js/seleccion.js"></script>
+</body>
+</html>
