@@ -25,4 +25,4 @@ Puedes ver una demo en vivo en: [futbol.enol.dev](https://futbol.enol.dev)
 
 1. **Clona el repositorio** en tu máquina local:
    ```bash
-   git clone <URL-del-repositorio>
+   git clone https://github.com/Enolgr/futbol.git
