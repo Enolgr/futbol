@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación web diseñada para la visualización y gestión de un equipo de fútbol. Permite ver la plantilla de jugadores, gestionar la estrategia del equipo y explorar otros datos relevantes.
 
+![image](https://github.com/user-attachments/assets/613006b5-6c79-441c-9f7a-5f9c4335ee76)
+
 ## Demo en vivo
 
 Puedes ver una demo en vivo en: [futbol.enol.dev](https://futbol.enol.dev)
